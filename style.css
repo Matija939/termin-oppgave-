@@ -1,0 +1,117 @@
+
+/*bakgrunn*/
+body{
+    background: linear-gradient( to right, rgb(255, 255, 255) 0%, rgb(148, 217, 105) 50%, rgb(156, 242, 95) 80% );
+   
+
+    
+}
+    
+    
+    
+   nav{ 
+    font-size: 30px;
+    font-family: sans-serif
+  }
+
+nav #active{
+    background-color: rgb(155, 155, 155);
+    border-radius: 15px;
+    padding: 10px 20px;
+}   
+
+.kolonne{
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgb(155, 155, 155);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  align-items: center;
+  
+}
+
+.velkommen{
+  
+  position: absolute;
+  top: 50‰;
+  left: 50‰;
+  transform: translate(-50%, -50%);
+  text-align: bottom;
+}
+.velkommen h1 {
+  font-size: 60px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(108, 105, 105);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+
+  }
+iframe, img {
+  border: none;
+}
+  
+style
+ h1{
+  text-align: center;
+  margin-top: 20px;
+  
+ }
+ .kolonne2{
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgb(255, 253, 253);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+}
+
+.kolonne:first-of-type{
+  margin-bottom: 20px;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.profilbilde {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgbda(0,0,0, 0.2);
+}
+.kolonne:hover {
+  background-color: rgb(255, 254, 254); 
+  transform: scale(1.05); 
+  transition: all 0.3s ease; 
+}
+ nav:hover {
+  background-color: rgb(200, 200, 200); 
+  transform: scale(1.05); 
+  transition: all 0.3s ease; 
+}
+ 
+
+
+
+
+
+ 

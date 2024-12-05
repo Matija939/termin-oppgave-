@@ -1,0 +1,16 @@
+.oppdrag{
+    /* for å vise alt i midten horisontalt */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.oppdrag div{
+    padding-top: 10px;
+}
+
+iframe{
+    padding-right: 10px;
+}
+
